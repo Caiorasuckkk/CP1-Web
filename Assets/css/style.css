@@ -1,113 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 header {
-    height: 770px;
+    height: auto;
     width: auto;
     display: flex;
-    justify-content: top; 
-    align-items: center; 
-    
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-#Nome{
+
+#Nome {
     width: 154px;
-    height: 1px;
-    margin-top: 0%;
+}
+
+#Nome h2 {
+    color: white;
+    font: Rubik;
+    margin-left: 70px;
+}
+
+nav {
+    margin: 0 auto; 
+    margin-right: 20px;/* Adicionado para centralizar o elemento nav */
+}
+
+#abas {
     display: flex;
-
-
-
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-#Nome h2{
+
+#abas li {
+    margin-right: 20px;
+}
+
+#abas a {
     color: white;
-
-
-
+    text-decoration: none;
+   
+    font-size: 20px;
+    padding: 5px;
 }
-#abas{
- width: 333px;
- height: 26px;
- margin-top: 12px;
- margin-left: 554px;
- display: flex;
 
-
-
+#trial {
+    background-color: #473BF0;
+    width: 198px;
+    height: 70px;
+    border-radius: 10%;
 }
-#abas h2 {
-        
-    display: inline-block;
+
+#trial h2 {
     color: white;
-    margin-left: 15px;
-    margin-right: 12px;
-   /* margin-left: 12vw;
     text-align: center;
-    margin-right: 10vw; 
-    font-family: "Poppins", sans-serif;
-    color: #000000;
-    font-size: 30px;
-    font-weight: 500;
-    */
-}
-#trial{
-background-color: #473BF0;
-width: 183px;
-height: 70px;
-}
-#trial h2{
-    color: white;
-
-
 }
 
-
-header::before{
+header::before {
     content: "";
-    background-color:#161C2D;
-;
+    background-color: #161C2D;
     background-size: contain;
-    height: 770px;
+    height: 900px;
     width: 1601px;
     display: block;
     position: absolute;
     z-index: -10;
 }
-#BG{
-    width: 541px;
-    height: 383px;
-    margin-top: 205px;
-    margin-left: 815px;
+.content {
+    margin-top: 30px; /* Adiciona uma distância do topo */
+    display: flex; /* Utiliza flexbox para posicionar os elementos em linha */
+    align-items: center; /* Alinha os itens verticalmente */
 }
-body{
 
+.image-container {
+    text-align: right; /* Alinha a imagem à direita */
+    margin-left: 20px; /* Adiciona espaço entre o texto e a imagem */
+}
 
+.image-container img {
+    width: 380px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
 
- }
+.text-container {
+    height:383px ;
+    width: 541px;
+}
 
-    
+.text-container h2 {
+    font-size: 30px;
+    color: white;
+}
 
-
-
-
-
-
-
- 
-    
-   
-
-
-
-
-
-
-
-
-
-    
-
-
+.text-container h3 {
+    font-size: 18px; /* Ajusta o tamanho da fonte do texto conforme necessário */
+    color: white; /* Define a cor do texto */
+    margin-top: 10px; /* Adiciona espaço entre o título e o texto */
+}
 
